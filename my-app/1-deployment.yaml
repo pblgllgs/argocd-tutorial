@@ -16,7 +16,7 @@ spec:
         app:  nginx
     spec:
       containers:
-        - image:  pblgllgs/hoobank:2.0.0
+        - image:  pblgllgs/pod:blue
           name:  nginx
           ports:
             - containerPort: 80
