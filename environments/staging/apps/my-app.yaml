@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/pblgllgs/argocd-tutorial.git
     targetRevision: HEAD
-    path: environment/staging/my-app
+    path: environments/staging/my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
