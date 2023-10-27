@@ -16,7 +16,7 @@ spec:
         app:  nginx
     spec:
       containers:
-        - image:  pblgllgs/pod:blue
+        - image:  pblgllgs/pod:green
           name:  nginx
           ports:
             - containerPort: 80
